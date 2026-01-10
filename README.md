@@ -1,13 +1,13 @@
 # parachute
 
 ## Description
-Project parachute
+A workspace for "party-main" or similar components, possibly a deployment or recovery tool.
 
 ## Goals
-- [ ] Add project goals
+- [ ] TBD
 
 ## Progress
-- [ ] Initial setup
+- [ ] Workspace setup
 
 ---
 *AI assisted*
