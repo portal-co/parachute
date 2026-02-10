@@ -1,0 +1,20 @@
+[package]
+name = "parachute-kernel-boot"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+description.workspace = true
+
+[dependencies]
+limine = {workspace = true, optional = true}
+uefi = {workspace = true, optional = true}
+
+[features]
+limine = ["dep:limine"]
+uefi = ["dep:uefi"]
+
+[target.'cfg(target_arch = "x86_64")'.dependencies]
+x86_64.workspace = true
+
+[target.'cfg(target_arch = "aarch64")'.dependencies]
+aarch64.workspace = true
