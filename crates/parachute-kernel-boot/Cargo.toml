@@ -6,6 +6,7 @@ license.workspace = true
 description.workspace = true
 
 [dependencies]
+spin.workspace = true
 limine = {workspace = true, optional = true}
 uefi = {workspace = true, optional = true}
 

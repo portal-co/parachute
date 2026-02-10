@@ -13,6 +13,8 @@ pit-patch = "^0.4.2"
 awaiter-trait = "^0.2.7"
 bysyncify = "^0.2.2"
 
+spin = "0.10.0"
+
 # Boot
 limine = "0.5.0"
 uefi = "0.36.1"
