@@ -13,9 +13,14 @@ uefi = {workspace = true, optional = true}
 [features]
 limine = ["dep:limine"]
 uefi = ["dep:uefi"]
+alloc=[]
+allocator-api=["alloc"]
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
 x86_64.workspace = true
 
 [target.'cfg(target_arch = "aarch64")'.dependencies]
 aarch64.workspace = true
+
+[target.'cfg(any(target_arch = "riscv32", target_arch = "riscv64"))'.dependencies]
+riscv.workspace = true
