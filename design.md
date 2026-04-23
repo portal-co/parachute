@@ -1,0 +1,6 @@
+- everything is an app, connected by capabilities
+- kernel creates bootstrapping capabilities and reads `port.ini`; loads apps and supplies specified capabilities from EFI
+- apps create cages to redirect these specifications; cages can have a variety of options such as being measurement-bound, having custom capabilities for previously kernel-supplied aspects
+- measured boot only; everything is measured, starting from `port.ini`
+- apps are signed but can be signed by any key; the key allows identifying apps and upgrading them (keeping capabilities)
+- three isomorphic layers: the kernel, PIT, the app API

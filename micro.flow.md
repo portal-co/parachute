@@ -1,0 +1,6 @@
+- [ ] base EFI loader
+- [ ] app system
+- [ ] virtio driver app
+- [ ] `wasm-blitz` app
+- [ ] PIT adapter app
+- [ ] simple shell-like app
