@@ -26,3 +26,6 @@ riscv = "0.16.0"
 
 # Drivers
 virtio-drivers = "0.13.0"
+
+# Testing
+bootloader = "0.9.8"
