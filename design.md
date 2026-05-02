@@ -4,3 +4,4 @@
 - measured boot only; everything is measured, starting from `port.ini`
 - apps are signed but can be signed by any key; the key allows identifying apps and upgrading them (keeping capabilities)
 - three isomorphic layers: the kernel, PIT, the app API
+- NO ACCOUNTS. ACCOUNTS REQUIRE AGE VERIFICATION, WHICH CANT BE IMPLEMENTED SOUNDLY AND SAFELY AT SUCH A LOW LEVEL
