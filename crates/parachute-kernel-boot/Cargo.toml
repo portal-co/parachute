@@ -9,6 +9,7 @@ description.workspace = true
 spin.workspace = true
 limine = {workspace = true, optional = true}
 uefi = {workspace = true, optional = true}
+linked_list_allocator.workspace = true
 
 [features]
 limine = ["dep:limine"]
